@@ -1,0 +1,34 @@
+.root{
+    -fx-background-color: background_color;
+}
+
+.table-view {
+    -fx-background-color: transparent;
+}
+
+.table-view:focused > .virtual-flow > .clipped-container > .sheet > .table-row-cell .table-cell:selected,
+.table-view:focused > .virtual-flow > .clipped-container > .sheet > .table-row-cell:selected .table-cell {
+    -fx-background-color: grey;
+}
+
+.table-view:focused > .virtual-flow > .clipped-container > .sheet > .table-row-cell .table-cell:selected:hover,
+.table-view:focused > .virtual-flow > .clipped-container > .sheet > .table-row-cell:selected:hover .table-cell{
+    -fx-background-color: grey;
+}
+
+.table-view:focused > .virtual-flow > .clipped-container > .sheet > .table-row-cell .table-cell:selected > .text,
+.table-view:focused > .virtual-flow > .clipped-container > .sheet > .table-row-cell:selected .table-cell > .text {
+    -fx-fill: black;
+}
+
+.table-view .column-header {
+    -fx-padding: 0em 0em 0em 1em;
+}
+
+.table-view .column-header .label {
+    -fx-padding: 0.2em 0.5em 0.2em 0;
+}
+
+.table-cell {
+    -fx-padding: 0.2em 0.5em 0.1em 0.2em;
+}
