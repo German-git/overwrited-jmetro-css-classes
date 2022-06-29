@@ -6,6 +6,10 @@
     -fx-background-color: transparent;
 }
 
+.list-cell:empty, .table-row-cell:empty {
+    -fx-background-color: transparent;
+}
+
 .table-view:focused > .virtual-flow > .clipped-container > .sheet > .table-row-cell .table-cell:selected,
 .table-view:focused > .virtual-flow > .clipped-container > .sheet > .table-row-cell:selected .table-cell {
     -fx-background-color: grey;
